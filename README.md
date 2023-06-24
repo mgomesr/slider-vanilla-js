@@ -1,1 +1,1 @@
-# slider-vanilla-js
+# Slider responsivo com fotos
