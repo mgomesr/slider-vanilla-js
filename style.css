@@ -63,14 +63,14 @@ html{
     .bullets{
         height: 64vh;
     }
-}
+}*/
 
 @media screen and (max-width: 380px) {
     .container{
-        height: 45vh;
+        height: 55vh;
     }
 
     .bullets{
-        height: 55vh;
+        height: 45vh;
     }
-}*/
+}
