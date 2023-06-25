@@ -55,17 +55,7 @@ html{
     } 
 }
 
-/*@media screen and (max-width: 480px) {
-    .container{
-        height: 36vh;
-    }
-
-    .bullets{
-        height: 64vh;
-    }
-}*/
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .container{
         height: 55vh;
     }
@@ -74,3 +64,13 @@ html{
         height: 45vh;
     }
 }
+
+/*@media screen and (max-width: 380px) {
+    .container{
+        height: 55vh;
+    }
+
+    .bullets{
+        height: 45vh;
+    }
+}*/
