@@ -55,7 +55,7 @@ html{
     } 
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     .container{
         height: 36vh;
     }
@@ -73,4 +73,4 @@ html{
     .bullets{
         height: 55vh;
     }
-}
+}*/
