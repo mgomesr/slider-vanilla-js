@@ -65,12 +65,12 @@ html{
     }
 }
 
-/*@media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {
     .container{
-        height: 43vh;
+        height: 45vh;
     }
 
     .bullets{
-        height: 57vh;
+        height: 55vh;
     }
-}*/
+}
