@@ -3,9 +3,14 @@ html{
     background-image: linear-gradient(black, rgb(70, 68, 68));
 }
 
+.grid{
+    height: 100vh;
+    overflow: hidden;
+}
+
 .container{
     position: relative;
-    height: 89vh;
+    height: 90vh;
 }
 
 .container img{
@@ -15,14 +20,13 @@ html{
     width: 100%;
     opacity: 0;
     transition: 1s;
-    height: 80vh;
     border-radius: 30px;
     border: 1px solid black;
 }
 
 .bullets{
     text-align: center;
-    height: 8vh;
+    height: 10vh;
 }
 
 .bullet-single{
@@ -39,12 +43,12 @@ html{
     background-color: #333;
 }
 
-@media screen and (width > 640px){
+@media (width > 640px){
     .container img{    
         position: absolute;
-        left: -50%;
-        right: -50%;
-        top: 2%;
+        left: -10%;
+        right: -10%;
+        top: 2.5%;
         margin: auto;
         width: 50%;
         border: 4px solid black;
@@ -53,19 +57,20 @@ html{
 
 @media screen and (max-width: 480px) {
     .container{
-        position: relative;
-        height: 94vh;
+        height: 36vh;
     }
-    
-    .container img{
-        height: 50vh;
-    }
-    
+
     .bullets{
-        position: absolute;
-        top: 63%;
-        right: -50%;
-        left: -50%;
-        height: 50vh;
+        height: 64vh;
     }
-  }
+}
+
+@media screen and (max-width: 380px) {
+    .container{
+        height: 43vh;
+    }
+
+    .bullets{
+        height: 57vh;
+    }
+}
